@@ -1,0 +1,14 @@
+{
+    "name":"tathvamarketing",
+    "description":"Tathva Marketing",
+    "repositories":[
+    ],
+    "require":{
+    },
+    "recommend":{
+    },
+    "autoload":{
+    },
+    "config":{
+    }
+}
