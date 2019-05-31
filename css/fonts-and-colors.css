@@ -35,7 +35,7 @@
 }
 
 .txt-title{
-    font-size: 36px;
+    font-size: 28px;
     line-height: 48px;
     font-weight: 300;
     text-transform: uppercase;
@@ -43,14 +43,14 @@
 }
 
 .txt-subhead {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
 
 .txt-body {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: regular;
     text-align: justify;
