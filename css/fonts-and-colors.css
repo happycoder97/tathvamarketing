@@ -1,19 +1,22 @@
 /* All Colors + Accents */
 
 .bg-light{
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .bg-dark {
-    background-color: #000000; 
+    background-color: #151515;
 }
 
 .bg-primary {
-    background-color: #ffffff;
+    background-color: #2f80ed;
 }
 
 .bg-accent {
-    background-color: #43ffff;
+    background-color: #EB4666;
+}
+.bg-white {
+    background-color: white;
 }
 
 /* All Text Styles */
@@ -22,39 +25,40 @@
     font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 }
 
-.txt-dark {
+.txt-light {
     color: #ffffff;
 }
 
-.txt-light {
-    color: #202020;
+.txt-dark {
+    color: #302f2f;
 }
 
-.heading{
-    font-size: 36px;
+.txt-accent {
+  color: #EB4666;
+}
+
+.txt-title{
+    font-size: 28px;
     line-height: 48px;
     font-weight: 300;
-    text-transform: uppercase;
     text-align: center;
 }
 
-.subheading {
-    font-size: 24px;
+.txt-subhead {
+    font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
     text-align: center;
 }
 
-/*Why sponsor tags here*/
-
-.why-sponsor{
-    text-align: left;
-    text-transform: capitalize;
-
+.txt-body {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: justify;
 }
 
-/*  
-    For all the contact files 
+/*
+    For all the contact files
     Remember that contact goes inside card.
      Do check before inserting.
 */
@@ -86,4 +90,16 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
+}
+
+@media screen and (min-width: 300px){
+
+}
+
+@media screen and (min-width: 740px){
+
+}
+
+@media screen and (min-width: 1200px){
+
 }
