@@ -5,15 +5,15 @@
 }
 
 .bg-dark {
-    background-color: #000000; 
+    background-color: #151515; 
 }
 
 .bg-primary {
-    background-color: #ffffff;
+    background-color: #2f80ed;
 }
 
 .bg-accent {
-    background-color: #43ffff;
+    background-color: #EB4666;
 }
 
 /* All Text Styles */
@@ -22,15 +22,19 @@
     font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 }
 
-.txt-dark {
+.txt-light {
     color: #ffffff;
 }
 
-.txt-light {
-    color: #202020;
+.txt-dark {
+    color: #302f2f;
 }
 
-.heading{
+.txt-accent {
+  color: #EB4666;
+}
+
+.txt-title{
     font-size: 36px;
     line-height: 48px;
     font-weight: 300;
@@ -38,19 +42,18 @@
     text-align: center;
 }
 
-.subheading {
+.txt-subhead {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
 
-/*Why sponsor tags here*/
-
-.why-sponsor{
-    text-align: left;
-    text-transform: capitalize;
-
+.txt-body {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: regular;
+    text-align: justify;
 }
 
 /*  
