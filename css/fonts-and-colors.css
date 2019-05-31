@@ -38,21 +38,19 @@
     font-size: 28px;
     line-height: 48px;
     font-weight: 300;
-    text-transform: uppercase;
     text-align: center;
 }
 
 .txt-subhead {
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
     text-align: center;
 }
 
 .txt-body {
     font-size: 14px;
     line-height: 30px;
-    font-weight: regular;
+    font-weight: 300;
     text-align: justify;
 }
 
