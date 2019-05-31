@@ -1,6 +1,72 @@
 #why-sponsor-us-section {
   
 }
+<<<<<<< HEAD
+
+#why-sponsor-us-section .title {
+  margin-top: 0;
+}
+
+#why-sponsor-us-section .card {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#why-sponsor-us-section .card .illustration .box {
+  width: 260px;
+  height: 165px;
+}
+
+@media screen and (min-width: 740px){
+  #why-sponsor-us-section {
+    padding-top: 54px;
+    padding-bottom: 76px;
+  }
+  #why-sponsor-us-section .card {
+    width: 720px;
+    height: 281px;
+    border-radius: 10px;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+  }
+
+  #why-sponsor-us-section .card .illustration {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #why-sponsor-us-section .card .textarea {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  #why-sponsor-us-section .card .textarea .texts {
+    width: 100%;
+  }
+
+  #why-sponsor-us-section .card-straight .textarea .texts h2 {
+    text-align: left;
+  }
+  #why-sponsor-us-section .card-straight .textarea .texts p {
+    text-align: left;
+  }
+
+  #why-sponsor-us-section .card-reverse .textarea .texts h2 {
+    text-align: right;
+  }
+  #why-sponsor-us-section .card-reverse .textarea .texts p {
+    text-align: right;
+  }
+=======
+>>>>>>> dev
 
 #why-sponsor-us-section .title {
   margin-top: 0;
@@ -151,10 +217,13 @@
     text-align: center;
     margin-bottom: 32px;
     margin-top: 32px;
+<<<<<<< HEAD
+=======
   }
 
   #why-sponsor-us-section .extra-points {
     width: 800px;
+>>>>>>> dev
   }
 }
 
