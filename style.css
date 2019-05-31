@@ -1,0 +1,89 @@
+/* All Colors + Accents */
+
+.bg-light{
+    background-color: #ffffff;
+}
+
+.bg-dark {
+    background-color: #000000; 
+}
+
+.bg-primary {
+    background-color: #ffffff;
+}
+
+.bg-accent {
+    background-color: #43ffff;
+}
+
+/* All Text Styles */
+
+.txt {
+    font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
+}
+
+.txt-dark {
+    color: #ffffff;
+}
+
+.txt-light {
+    color: #202020;
+}
+
+.heading{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Why sponsor tags here*/
+
+.why-sponsor{
+    text-align: left;
+    text-transform: capitalize;
+
+}
+
+/*  
+    For all the contact files 
+    Remember that contact goes inside card.
+     Do check before inserting.
+*/
+
+.contact{
+    text-align: center;
+}
+
+.contact{
+    text-transform: uppercase;
+}
+
+.contact .name {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ff008a;
+    font-weight: 400;
+}
+
+.contact .email{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact .number{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
