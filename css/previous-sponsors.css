@@ -17,6 +17,11 @@
 }
 
 @media screen and (min-width: 300px){
+  #previous-sponsors-section {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+  
   #previous-sponsors-section .logos {
     flex-direction: column;
     align-items: center;
