@@ -1,0 +1,39 @@
+#events-section .txt-title {
+  line-height: 80px;
+}
+
+@media screen and (min-width: 300px){
+
+}
+
+@media screen and (min-width: 740px){
+
+}
+
+@media screen and (min-width: 1200px){
+  #events-section {
+    padding-bottom: 40px;
+  }
+  #events-section .contain {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  #events-section .contain .block1 {
+    display: flex;
+    flex-direction: row;
+  }
+  #events-section .contain .card {
+    width: 360px;
+    background-color: gray;
+  }
+  #events-section .contain .card-full {
+    height: 250px;
+  }
+  #events-section .contain .card-short {
+    height: 125px;
+  }
+}
