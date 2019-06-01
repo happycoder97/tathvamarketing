@@ -2,60 +2,136 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Define fonts here -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Define fonts here -->
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Define Stylesheets here -->
-
-  <link rel="stylesheet" href="./css/fonts-and-colors.css">
-  <link rel="stylesheet" href="./css/why-sponsor-us.css">
+  <link rel="stylesheet" href="./css/events-section.css">
+	<link rel="stylesheet" href="./css/navbar.css">
+	<link rel="stylesheet" href="./css/fonts-and-colors.css">
+	<link rel="stylesheet" href="./css/why-sponsor-us.css">
+  <link rel="stylesheet" href="css/contact-us.css">
+  <link rel="stylesheet" href="./css/previous-sponsors.css">
   <link rel="stylesheet" href="./css/about-us.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
-  <title>Tathva Marketing</title>
+	<title>Tathva Marketing</title>
 </head>
 
 <body>
-  <!-- Make a section tag here for one of the sections and work on it-->
-
-  <!-- NAVIGATION BAR -->
-
-
+	<!-- Make a section tag here for one of the sections and work on it-->
+    <!-- NAVIGATION BAR -->
+  <section id="tathva-navbar-section">
+    <nav class="bg-light button-label">
+      <a href="#"><img src="img/t4.jpg" width="100" height="64" class="side_logo"></a>
+      <ul>
+          <li class="txt-dark "><a href="#">HOME</a></li>
+          <li class="txt-dark "><a href="#">ABOUT</a></li>
+          <li class="txt-dark "><a href="#">EVENTS</a></li>
+          <li class="txt-dark "><a href="#">WHY SPONSOR US</a></li>
+          <li class="txt-dark "><a href="#">PREVIOUS SPONSORS</a></li>
+          <li class="txt-dark "><a href="#">CONTACT US</a></li>
+          <li class="txt-dark "><a href="#">GALLERY</a></li>
+      </ul>
+    </nav>
+  </section>
 
   <!-- PARTNER WITH US PIC -->
 
-
-
-  <!-- ABOUT SECTION -->
-
-  <section id="about-us-section">
-    <div class="row">
-      <div class="column bg-dark">
-        <img src="./img/about-us.png" alt="Tathva Robot" style="float:left;width:100%;height:100%;">
-      </div>
-      <div class="column bg-light">
-        <h2 class="column-heading">ABOUT</h2>
-        <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus 
-          delectus aliquam minus saepe illo officiis voluptatem neque, 
-          vel ad possimus amet accusantium cupiditate natus, sint enim, nobis blanditiis aliquid quas.</p>
+  <!--About us section -->
+  <section id="about-us-section" class="bg-light">
+    <div class="contain">
+      <div class="photo" style="background-image: url('./img/remote-car.jpg')"></div>
+      <div class="textarea">
+        <h2 class="txt txt-title txt-dark">ABOUT</h2>
+        <p class="txt txt-body txt-dark">
+          From a technical symposium in 2000, to a technical fest in 2002 and a techno-managerial fest since 2007, Tathva has come
+          a long way. This October, it is back again with 18 years of rich experience. What started out as the brainchild of a few
+          curious minds, is now an emotion carried by those in and out of the college. It is also hailed as one of the biggest
+          techno-managerial fests in South India. With bigger and better lectures, workshops, competitions and pronites, it
+          attracts the best talent and intellect from all over the country, to those who wish to enhance and exhibit their
+          knowledge.
+          <br>
+          Not limiting itself to just that, Tathva is also an open platform to anyone with technical and managerial aptitude,
+          thereby expanding its horizons and exploring new opportunities. Brace yourselves for yet another amazing season of
+          Tathva, this time bustling with energy and filled with an incredible amount of talent, seeking to find the best of the
+          best, amongst us.
+        </p>
       </div>
     </div>
   </section>
 
   <!-- EVENTS SECTION -->
-
+  <section id="events-section" class="bg-very-dark">
+    <h2 class="txt txt-title text-light bg-primary">EVENTS</h2>
+    <div class="contain">
+      <div class="block1">
+        <div class="sub-col">
+          <div class="card card-short"></div>
+          <div class="card card-short"></div>
+          <div class="card card-full" style="background-image: url('./img/grid-pronite.jpg')">
+            <div class="triangle triangle-bottom-left"></div>
+            <div class="textarea textarea-bottom-left">
+              <h3 class="txt txt-subhead txt-light">PROSHOWS</h3>
+              <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipisce</p>
+            </div>
+          </div>
+          <div class="card card-short"></div>
+          <div class="card card-short"></div>
+        </div>
+        <div class="sub-col">
+          <div class="card card-short"></div>
+          <div class="card card-full" style="background-image: url('./img/grid-interface.jpg')">
+            <div class="triangle triangle-top-left"></div>
+            <div class="textarea textarea-top-left">
+              <h3 class="txt txt-subhead txt-light">INTERFACE</h3>
+              <p class="txt txt-body txt-light">Kerala's largest startup summit</p>
+            </div>
+          </div>
+          <div class="card card-short"></div>
+          <div class="card card-full" style="background-image: url('./img/grid-adizya.jpg')">
+            <div class="triangle triangle-bottom-right"></div>
+            <div class="textarea textarea-bottom-right">
+              <h3 class="txt txt-subhead txt-light">INTERFACE</h3>
+              <p class="txt txt-body txt-light">Creative platform for architects and planners</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block2">
+        <div class="sub-row">
+          <div class="card card-full" style="background-image: url('./img/grid-aavishkar.jpg')">
+            <div class="triangle triangle-top-right"></div>
+            <div class="textarea textarea-top-right">
+              <h3 class="txt txt-subhead txt-light">AAVISHKAR</h3>
+              <p class="txt txt-body txt-light">Kerala's largest startup summit</p>
+            </div>
+          </div>
+          <div class="card card-short"></div>
+        </div>
+        <div class="sub-row">
+          <div class="card card-full" style="background-image: url('./img/grid-wheels.jpg')">
+            <div class="triangle triangle-top-right"></div>
+            <div class="textarea textarea-top-right">
+              <h3 class="txt txt-subhead txt-light">WHEELS</h3>
+              <p class="txt txt-body txt-light">Kerala's largest startup summit</p>
+            </div>
+          </div>
+          <div class="card card-short"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <!-- WHY SPONSER US -->
@@ -81,9 +157,9 @@
       showcase their skills, it also feeds the hungry minds of eager learners with information and knowledge.
     </p>
     <p class="txt txt-subhead txt-dark imperative">Here’s why you should consider investing in Tathva</p>
-    <div class="card mdl-shadow--4dp bg-white card-straight">
+    <div class="card bg-white card-straight">
       <div class="illustration">
-        <div class="box" style="background-image: url('./img/media.png')">
+        <div class="box" style="background-image: url('./img/media-art.png')">
         </div>
       </div>
       <div class="textarea">
@@ -93,29 +169,154 @@
         </div>
       </div>
     </div>
-    <div class="card mdl-shadow--4dp bg-white card-reverse">
-      <div class="textarea">
-        <div class="texts">
-          <h2 class="txt txt-subhead txt-dark">Active presence in Media</h2>
-          <p class="txt txt-body txt-dark">Promotions through print and social platforms</p>
+    <div class="card bg-white card-reverse">
+      <div class="illustration">
+        <div class="box" style="background-image: url('./img/stalls-art.png')">
         </div>
       </div>
-      <div class="illustration">
-        <div class="box" style="background-image: url('./img/media.png')">
+      <div class="textarea">
+        <div class="texts">
+          <h2 class="txt txt-subhead txt-dark">Tathva Stalls</h2>
+          <p class="txt txt-body txt-dark">Well executed stalls that succesfully cover the targetted mass</p>
         </div>
       </div>
     </div>
+    <div class="card bg-white card card-straight">
+      <div class="illustration">
+        <div class="box" style="background-image: url('./img/interactive-art.png')">
+        </div>
+      </div>
+      <div class="textarea">
+        <div class="texts">
+          <h2 class="txt txt-subhead txt-dark">Video Ads and Interactive Sessions</h2>
+          <p class="txt txt-body txt-dark">Lorem ipsum dolor sit ameit conseictor adipising elit</p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-white card-reverse">
+      <div class="illustration">
+        <div class="box" style="background-image: url('./img/tech-art.png')">
+        </div>
+      </div>
+      <div class="textarea">
+        <div class="texts">
+          <h2 class="txt txt-subhead txt-dark">Exibit Models</h2>
+          <p class="txt txt-body txt-dark">Showcase your innovative idea or technology and gain recognition</p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-white card card-straight">
+      <div class="illustration">
+        <div class="box" style="background-image: url('./img/posters-art.png')">
+        </div>
+      </div>
+      <div class="textarea">
+        <div class="texts">
+          <h2 class="txt txt-subhead txt-dark">Posters and T-shirts</h2>
+          <p class="txt txt-body txt-dark">Mark you name on Tathva T-shirts and on captivation posters circulating over 900 colleges</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="txt txt-title txt-dark and-more">And more</h2>
+    <p class="txt txt-body txt-dark extra-points">
+      Sale of Tathva Official T-shirts and other alluring merchandise
+      <br><br>
+      Innovative advertising techniques to promote sponsors
+      <br><br>
+      An eternal association with National Institute of Technology Calicut
+      <br><br>
+    </p>
 
   </section>
 
-  <p class="txt txt-accent txt-title">Hi, its working</p>
-  <p class="txt txt-dark txt-subhead">This is a subheading</p>
-  <p class="txt txt-dark txt-body">Lorem ipsum dolor sit ameit, this is a paragraph.</p>
-
-  <!-- PREVIOUS SPONSERS -->
-
+  <!-- PREVIOUS SPONSERS | Salih is working on this -->
+  <section id="previous-sponsors-section" class="">
+      <h2 class="txt txt-title txt-dark">Previous Sponsors</h2>
+      <div class="logos">
+        <div class="logos-group">
+          <div class="column" style="background-image: url('img/logos-col1.png')"></div>
+          <div class="column" style="background-image: url('img/logos-col2.png')"></div>
+        </div>
+        <div class="logos-group">
+          <div class="column" style="background-image: url('img/logos-col3.png')"></div>
+          <div class="column" style="background-image: url('img/logos-col4.png')"></div>
+        </div>
+      </div>
+    </section>
+  
 
   <!-- CONTACT US -->
+  <section class="bg-light contact" id="contact-us">
+    <div class="container">
+      <div class="txt txt-accent txt-title">Contact Us</div>
+      <div class="txt txt-dark txt-subhead">Subheading 1</div>
+      <div class="row" id="row-contact-us">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image1</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image2</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image3</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="txt txt-dark txt-subhead">Second Section</div>
+      <div class="row" id="row-contact-us">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image1</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image2</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image3</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+      </div
+    </div>
+  </section>
 
 
   <!-- GALLERY -->
@@ -134,36 +335,39 @@
 
       <div class="d-flex justify-content-center" style="padding-bottom:20px">
 
-        <div id="gall" class="carousel slide" data-ride="carousel">
+				<div class="col-sm-12">
+					<div id="gall" class="carousel slide" data-ride="carousel">
 
-          <div class="carousel-inner">
+	          <div class="carousel-inner">
 
-            <div class="carousel-item active">
-              <img id="galimg" style="width:85vw;height:85vh" src="t1.jpeg" alt="">
-            </div>
+	            <div class="carousel-item active">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t5.jpg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t2.jpeg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t6.jpg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t3.jpeg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t3.jpeg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t4.jpg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t4.jpg" alt="">
+	            </div>
 
-          </div>
+	          </div>
 
-          <ul class="carousel-indicators">
-            <li data-target="#gall" data-slide-to="0" class="active"></li>
-            <li data-target="#gall" data-slide-to="1"></li>
-            <li data-target="#gall" data-slide-to="2"></li>
-            <li data-target="#gall" data-slide-to="3"></li>
-          </ul>
+	          <ul class="carousel-indicators">
+	            <li data-target="#gall" data-slide-to="0" class="active"></li>
+	            <li data-target="#gall" data-slide-to="1"></li>
+	            <li data-target="#gall" data-slide-to="2"></li>
+	            <li data-target="#gall" data-slide-to="3"></li>
+	          </ul>
 
-        </div>
+	        </div>
+
+				</div>
 
       </div>
 

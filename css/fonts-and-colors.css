@@ -20,7 +20,7 @@
 }
 
 /* All Text Styles */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 .txt {
     font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 }
@@ -69,6 +69,7 @@
 
 .contact{
     text-transform: uppercase;
+    text-align: center;
 }
 
 .contact .name {
@@ -81,8 +82,8 @@
 .contact .email{
     font-size: 14px;
     line-height: 18px;
-    text-align: center;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .contact .number{
@@ -90,6 +91,12 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
+}
+
+hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 300px){
