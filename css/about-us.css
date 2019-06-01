@@ -1,0 +1,38 @@
+
+.bg-light{
+    background-color: #fafafa;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.column-heading{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    line-height: 200%;
+}
+
+.column-text{
+    position: relative;
+    float: center;
+    top: 50%;
+    left: 50%;
+    text-align: justify;
+    text-align-last: center;
+    transform: translate(-50%, -50%);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    text-align: center;
+    clear: both;
+  }

@@ -2,45 +2,75 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Define fonts here -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Define fonts here -->
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <!-- Define Stylesheets here -->
-
-  <link rel="stylesheet" href="./css/fonts-and-colors.css">
-  <link rel="stylesheet" href="./css/why-sponsor-us.css">
+	<!-- Define Stylesheets here -->
+	<link rel="stylesheet" href="./css/navbar.css">
+	<link rel="stylesheet" href="./css/fonts-and-colors.css">
+	<link rel="stylesheet" href="./css/why-sponsor-us.css">
+  <link rel="stylesheet" href="css/contact-us.css">
   <link rel="stylesheet" href="./css/previous-sponsors.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/about-us.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
-  <title>Tathva Marketing</title>
+	<title>Tathva Marketing</title>
 </head>
 
 <body>
-  <!-- Make a section tag here for one of the sections and work on it-->
-
-  <!-- NAVIGATION BAR -->
-
-
+	<!-- Make a section tag here for one of the sections and work on it-->
+    <!-- NAVIGATION BAR -->
+  <section id="tathva-navbar-section">
+    <nav class="bg-light button-label">
+      <a href="#"><img src="img/t4.jpg" width="100" height="64" class="side_logo"></a>
+      <ul>
+          <li class="txt-dark "><a href="#">HOME</a></li>
+          <li class="txt-dark "><a href="#">ABOUT</a></li>
+          <li class="txt-dark "><a href="#">EVENTS</a></li>
+          <li class="txt-dark "><a href="#">WHY SPONSOR US</a></li>
+          <li class="txt-dark "><a href="#">PREVIOUS SPONSORS</a></li>
+          <li class="txt-dark "><a href="#">CONTACT US</a></li>
+          <li class="txt-dark "><a href="#">GALLERY</a></li>
+      </ul>
+    </nav>
+  </section>
 
   <!-- PARTNER WITH US PIC -->
 
 
 
-  <!-- ABOUT SECTION -->
 
 
+	<!-- ABOUT SECTION -->
+	<section id="about-us-section">
+		<div class="row align-items-center bg-light">
+			<div class="col-sm-6" style="padding-top:64px">
+				<img src="img/about-us.png" alt="" style="width:100%;height:100%">
+			</div>
+			<div class="col-sm-6" style="padding-top:64px">
+				<div class="d-flex flex-column justify-content-center" style="height:100%">
+					<h1 class="column-heading">
+						ABOUT
+					</h1>
+					<div class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+	          delectus aliquam minus saepe illo officiis voluptatem neque,
+	          vel ad possimus amet accusantium cupiditate natus, sint enim, nobis blanditiis aliquid quas.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
   <!-- EVENTS SECTION -->
 
@@ -133,9 +163,9 @@
     <p class="txt txt-body txt-dark extra-points">
       Sale of Tathva Official T-shirts and other alluring merchandise
       <br><br>
-      Innovative advertising techniques to promote sponsors 
+      Innovative advertising techniques to promote sponsors
       <br><br>
-      An eternal association with National Institute of Technology Calicut 
+      An eternal association with National Institute of Technology Calicut
       <br><br>
     </p>
 
@@ -153,6 +183,77 @@
   </section>
 
   <!-- CONTACT US -->
+  <section class="bg-light contact" id="contact-us">
+    <div class="container">
+      <div class="txt txt-accent txt-title">Contact Us</div>
+      <div class="txt txt-dark txt-subhead">Subheading 1</div>
+      <div class="row" id="row-contact-us">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image1</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image2</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image3</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="txt txt-dark txt-subhead">Second Section</div>
+      <div class="row" id="row-contact-us">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image1</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image2</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="col-contact-us">
+          <div class="card" style="width: 18rem;" id="contact-card">
+            <img class="card-img-top" src="img/sample.jpg" style="border-radius: 20px 20px 0px 0px;">
+            <div class="card-body" id="img-top-curved">
+              <p class=" txt txt-dark name">Image3</p>
+              <div class="txt txt-dark email">sam@samsepiol.com</div>
+              <div class="txt txt-dark number">+911234567890</div>
+            </div>
+          </div>
+        </div>
+      </div
+    </div>
+  </section>
 
 
   <!-- GALLERY -->
@@ -171,36 +272,39 @@
 
       <div class="d-flex justify-content-center" style="padding-bottom:20px">
 
-        <div id="gall" class="carousel slide" data-ride="carousel">
+				<div class="col-sm-12">
+					<div id="gall" class="carousel slide" data-ride="carousel">
 
-          <div class="carousel-inner">
+	          <div class="carousel-inner">
 
-            <div class="carousel-item active">
-              <img id="galimg" style="width:85vw;height:85vh" src="t1.jpeg" alt="">
-            </div>
+	            <div class="carousel-item active">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t5.jpg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t2.jpeg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t6.jpg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t3.jpeg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t3.jpeg" alt="">
+	            </div>
 
-            <div class="carousel-item">
-              <img id="galimg" style="width:85vw;height:85vh" src="t4.jpg" alt="">
-            </div>
+	            <div class="carousel-item">
+	              <img id="galimg" style="width:100%;height:100%" src="img/t4.jpg" alt="">
+	            </div>
 
-          </div>
+	          </div>
 
-          <ul class="carousel-indicators">
-            <li data-target="#gall" data-slide-to="0" class="active"></li>
-            <li data-target="#gall" data-slide-to="1"></li>
-            <li data-target="#gall" data-slide-to="2"></li>
-            <li data-target="#gall" data-slide-to="3"></li>
-          </ul>
+	          <ul class="carousel-indicators">
+	            <li data-target="#gall" data-slide-to="0" class="active"></li>
+	            <li data-target="#gall" data-slide-to="1"></li>
+	            <li data-target="#gall" data-slide-to="2"></li>
+	            <li data-target="#gall" data-slide-to="3"></li>
+	          </ul>
 
-        </div>
+	        </div>
+
+				</div>
 
       </div>
 
