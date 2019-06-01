@@ -33,7 +33,7 @@
 
 @media sreen and (min-width: 1200px){
   #landing-section .textarea p {
-    800px;
+    width: 800px;
   }
 
 }
