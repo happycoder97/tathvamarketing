@@ -15,6 +15,7 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    line-height: 200%;
 }
 
 .column-text{
@@ -25,6 +26,8 @@
     text-align: justify;
     text-align-last: center;
     transform: translate(-50%, -50%);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .row:after {
