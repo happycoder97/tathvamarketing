@@ -26,7 +26,7 @@
 }
 
 .txt-light {
-    color: #ffffff;
+    color: #ffffffd2;
 }
 
 .txt-dark {
@@ -46,7 +46,7 @@
 
 .txt-subhead {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
 }
 
