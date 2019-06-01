@@ -2,6 +2,8 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #previous-sponsors-section .txt-title {
@@ -15,21 +17,19 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+#previous-sponsors-section .logos .logos-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media screen and (min-width: 300px){
-  #previous-sponsors-section {
-    padding-top: 25px;
-    padding-bottom: 35px;
-  }
-  
-  #previous-sponsors-section .logos {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media screen and (min-width: 740px){
-  
+  #previous-sponsors-section .logos .logos-group {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1200px){
