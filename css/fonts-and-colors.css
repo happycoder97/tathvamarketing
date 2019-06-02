@@ -1,7 +1,8 @@
 /* All Colors + Accents */
 
 .bg-light{
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    background-color: white;
 }
 
 .bg-dark {
