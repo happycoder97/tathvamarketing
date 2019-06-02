@@ -11,6 +11,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Define Stylesheets here -->
+  <link rel="stylesheet" href="./css/animations.css">
   <link rel="stylesheet" href="./css/carousel.css">
   <link rel="stylesheet" href="./css/last-year-sponsors.css">
   <link rel="stylesheet" href="./css/landing-section.css">
@@ -23,6 +24,8 @@
   <link rel="stylesheet" href="./css/about-us.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
   
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -74,7 +77,7 @@
   <!--About us section -->
   <section id="about-us-section" class="bg-white">
     <div class="contain">
-      <div class="photo" style="background-image: url('./img/remote-car.jpg')"></div>
+      <div class="photo" data-aos="flip-left" style="background-image: url('./img/remote-car.jpg')"></div>
       <div class="textarea">
         <h2 class="txt txt-title txt-dark">ABOUT</h2>
         <p class="txt txt-body txt-dark">
@@ -96,48 +99,48 @@
 
   <!-- EVENTS SECTION -->
   <section id="events-section" class="bg-very-dark">
-    <h2 class="txt txt-title text-light bg-primary">EVENTS</h2>
+    <h2 class="txt txt-title text-light bg-primary" data-aos="slide-right">EVENTS</h2>
     <div class="contain">
       <div class="block1">
         <div class="sub-col">
-          <div class="card card-short" style="background-color: #9C3A3A">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #9C3A3A">
             <h2 class="txt txt-subhead txt-light">WORKSHOPS</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
-          <div class="card card-short" style="background-color: #344FAC">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #344FAC">
             <h2 class="txt txt-subhead txt-light">EXHIBITIONS</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
-          <div class="card card-full" style="background-image: url('./img/grid-pronite.jpg')">
+          <div class="card card-full" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-image: url('./img/grid-pronite.jpg')">
             <div class="triangle triangle-bottom-left"></div>
             <div class="textarea textarea-bottom-left">
               <h3 class="txt txt-subhead txt-light">PROSHOWS</h3>
               <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipisce</p>
             </div>
           </div>
-          <div class="card card-short" style="background-color: #BC0093">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #BC0093">
             <h2 class="txt txt-subhead txt-light">INFORMALS</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
-          <div class="card card-short" style="background-color: transparent"></div>
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: transparent"></div>
         </div>
         <div class="sub-col">
-          <div class="card card-short" style="background-color: #39A269">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #39A269">
             <h2 class="txt txt-subhead txt-light">LECTURES</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
-          <div class="card card-full" style="background-image: url('./img/grid-interface.jpg')">
+          <div class="card card-full" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-image: url('./img/grid-interface.jpg')">
             <div class="triangle triangle-top-left"></div>
             <div class="textarea textarea-top-left">
               <h3 class="txt txt-subhead txt-light">INTERFACE</h3>
               <p class="txt txt-body txt-light">Kerala's largest startup summit</p>
             </div>
           </div>
-          <div class="card card-short" style="background-color: #5A0068">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #5A0068">
             <h2 class="txt txt-subhead txt-light">BLITZKREIG</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
-          <div class="card card-full" style="background-image: url('./img/grid-adizya.jpg')">
+          <div class="card card-full" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-image: url('./img/grid-adizya.jpg')">
             <div class="triangle triangle-bottom-right"></div>
             <div class="textarea textarea-bottom-right">
               <h3 class="txt txt-subhead txt-light">ADIZYA</h3>
@@ -148,27 +151,27 @@
       </div>
       <div class="block2">
         <div class="sub-row">
-          <div class="card card-full" style="background-image: url('./img/grid-aavishkar.jpg')">
+          <div class="card card-full" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-image: url('./img/grid-aavishkar.jpg')">
             <div class="triangle triangle-top-right"></div>
             <div class="textarea textarea-top-right">
               <h3 class="txt txt-subhead txt-light">AAVISHKAR</h3>
               <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
             </div>
           </div>
-          <div class="card card-short" style="background-color: #975416">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #975416">
             <h2 class="txt txt-subhead txt-light">SAMASYA</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
         </div>
         <div class="sub-row">
-          <div class="card card-full" style="background-image: url('./img/grid-wheels.jpg')">
+          <div class="card card-full" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-image: url('./img/grid-wheels.jpg')">
             <div class="triangle triangle-top-right"></div>
             <div class="textarea textarea-top-right">
               <h3 class="txt txt-subhead txt-light">WHEELS</h3>
               <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
             </div>
           </div>
-          <div class="card card-short" style="background-color: #0F0F0F">
+          <div class="card card-short" data-aos="slide-up" data-bs-hover-animate="pulse" style="background-color: #0F0F0F">
             <h2 class="txt txt-subhead txt-light">GENERAL</h2>
             <p class="txt txt-body txt-light">Lorem ipsum dolor sit ameit conseictor adipiscing elit is a sample typefacing text</p>
           </div>
@@ -201,7 +204,7 @@
       showcase their skills, it also feeds the hungry minds of eager learners with information and knowledge.
     </p>
     <p class="txt txt-subhead txt-dark imperative">Here’s why you should consider investing in Tathva</p>
-    <div class="card bg-white card-straight">
+    <div class="card bg-white card-straight" data-aos="fade-right">
       <div class="illustration">
         <div class="box" style="background-image: url('./img/media-art.png')">
         </div>
@@ -213,7 +216,7 @@
         </div>
       </div>
     </div>
-    <div class="card bg-white card-reverse">
+    <div class="card bg-white card-reverse" data-aos="fade-left">
       <div class="illustration">
         <div class="box" style="background-image: url('./img/stalls-art.png')">
         </div>
@@ -225,7 +228,7 @@
         </div>
       </div>
     </div>
-    <div class="card bg-white card card-straight">
+    <div class="card bg-white card card-straight" data-aos="fade-right">
       <div class="illustration">
         <div class="box" style="background-image: url('./img/interactive-art.png')">
         </div>
@@ -237,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="card bg-white card-reverse">
+    <div class="card bg-white card-reverse" data-aos="fade-left">
       <div class="illustration">
         <div class="box" style="background-image: url('./img/tech-art.png')">
         </div>
@@ -249,7 +252,7 @@
         </div>
       </div>
     </div>
-    <div class="card bg-white card card-straight">
+    <div class="card bg-white card card-straight" data-aos="fade-right">
       <div class="illustration">
         <div class="box" style="background-image: url('./img/posters-art.png')">
         </div>
@@ -448,8 +451,8 @@
    ADDED A SMALL PADDING SO THAT IT DOES NOT LOOK CONGESTED.
    DARK BACKGROUND FROM fonts-and-colors.css
     -->
-  <section id="sec_gallery">
-    <h2 class="txt txt-light txt-title">GALLERY</h2>
+  <section id="sec_gallery" class="bg-very-dark">
+    <h2 class="txt txt-light txt-title bg-primary" data-aos="slide-right">GALLERY</h2>
       <div class="carousel slide" data-ride="carousel" id="carousel-1">
           <div class="carousel-inner" role="listbox">
               <div class="carousel-item active img-div"><img class="d-block" src="./img/grid-wheels.jpg" alt="Slide Image"></div>
