@@ -27,7 +27,7 @@
 }
 
 .txt-light {
-    color: #ffffffd2;
+    color: #fffffff5;
 }
 
 .txt-dark {
@@ -41,7 +41,7 @@
 .txt-title{
     font-size: 28px;
     line-height: 48px;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -56,6 +56,12 @@
     line-height: 30px;
     font-weight: 300;
     text-align: justify;
+}
+
+.txt-button-label {
+  font-weight: 700;
+  letter-spacing: 1%;
+  font-size: 14px;
 }
 
 /*
