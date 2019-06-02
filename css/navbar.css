@@ -3,14 +3,34 @@
   padding-bottom: 0;
   z-index: 10;
   box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+  transition: margin .3s;
+}
+
+#navbar.away {
+  margin-top: -80px;
 }
 
 #navbar .container-fluid img {
   height: 44px;
 }
 
+#navbar .collapse {
+  transition: padding .3s;
+}
+#navbar .collapse.show {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#navbar ul li {
+  text-align: center;
+}
+
+@media screen and (min-width: 300px){
+}
+
 @media screen and (min-width: 768px){
-  nav #navcol-1 {
+  #navbar #navcol-1 {
     flex-direction: row-reverse;
   }
 }
