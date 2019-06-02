@@ -1,16 +1,15 @@
 #sec_gallery {
   width: 100%;
-  background-color: black;
 }
 
 #sec_gallery .txt-title {
-  background-color: black;
   line-height: 80px;
   margin-bottom: 0;
 }
 
 #sec_gallery .carousel-item{
   width: 100%;
+  padding-top: 32px;
 }
 
 #sec_gallery .carousel{
