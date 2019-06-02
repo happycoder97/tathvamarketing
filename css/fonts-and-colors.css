@@ -58,6 +58,12 @@
     text-align: justify;
 }
 
+.txt-button-label {
+  font-weight: 400;
+  letter-spacing: 1%;
+  font-size: 14px;
+}
+
 /*
     For all the contact files
     Remember that contact goes inside card.
