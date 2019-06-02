@@ -29,12 +29,29 @@
   #events-section .contain .card {
     width: 300px;
     position: relative;
-  }
-  #events-section .contain .card-full {
-    height: 250px;
+    border: none;
+    overflow: hidden;
+    margin-top: 5px;
   }
   #events-section .contain .card-short {
-    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #events-section .contain .card-short .txt-body {
+    line-height: 20px;
+    font-size: 14px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #events-section .contain .card-full {
+    height: 245px;
+  }
+  #events-section .contain .card-short {
+    height: 120px;
   }
   #events-section .contain .card-full .triangle {
     width: 100%;
@@ -82,7 +99,9 @@
     flex-direction: row;
   }
   #events-section .contain .card {
-    width: 360px;
+    width: 355px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
   }
   #events-section .contain .card-full .triangle {
     width: 0;
@@ -132,15 +151,11 @@
   }
   #events-section .contain .card-full .txt-subhead {
     padding-top: 0;
-    font-size: 24px;
-    font-weight: 300;
     margin-bottom: 0;
   }
   #events-section .contain .card-full .txt-body {
     margin-top: 10px;
     width: 50%;
-    line-height: 20px;
-    font-size: 14px;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;
@@ -175,11 +190,12 @@
 
 @media screen and (min-width: 1200px){
   #events-section {
-    
   }
   #events-section .contain {
     width: 1080px;
     flex-direction: row;
+    margin-top: 64px;
+    margin-bottom: 44px;
   }
   #events-section .contain .block2 {
     flex-direction: column;

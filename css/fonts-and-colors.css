@@ -1,7 +1,8 @@
 /* All Colors + Accents */
 
 .bg-light{
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    background-color: white;
 }
 
 .bg-dark {
@@ -26,7 +27,7 @@
 }
 
 .txt-light {
-    color: #ffffff;
+    color: #ffffffd2;
 }
 
 .txt-dark {
@@ -46,7 +47,7 @@
 
 .txt-subhead {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
 }
 

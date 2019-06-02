@@ -1,0 +1,40 @@
+#landing-section {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing-section .textarea p {
+  text-align: center;
+}
+
+#landing-section .textarea .landing-button {
+  border-radius: 30px;
+  padding: 5px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: transparent;
+  border: 1px solid #ffffffd2
+}
+
+@media screen and (min-width: 300px){
+  #landing-section .textarea p {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 740px){
+  #landing-section .textarea p {
+    width: 700px;
+  }
+}
+
+@media sreen and (min-width: 1200px){
+  #landing-section .textarea p {
+    width: 800px;
+  }
+
+}
+
