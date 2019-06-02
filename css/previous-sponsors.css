@@ -1,7 +1,3 @@
-#previous-sponsors-section {
-  display: none;
-}
-
 #previous-sponsors-section .logos {
   margin-left: auto;
   margin-right: auto;
@@ -34,11 +30,14 @@
   #previous-sponsors-section .logos .logos-group {
     flex-direction: row;
   }
+  #previous-sponsors-section {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1023px){
   #previous-sponsors-section {
-    padding-top: 54px;
     padding-bottom: 54px;
   }
   #previous-sponsors-section .logos {
