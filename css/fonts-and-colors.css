@@ -20,6 +20,32 @@
     background-color: white;
 }
 
+/* Beta color scheme */
+.palette-maj-main {
+  background-color: #FAFAFA!important;
+  color: #3C332C;
+}
+.palette-maj-alt {
+  background-color: #FFFFFF;
+  color: #231919; 
+}
+.palette-min-main {
+  background-color: #3C332C;
+  color: #F6F0F0;
+}
+.palette-min-alt {
+  background-color: #0e0e0e;
+  color: #F6F0F0;
+}
+.palette-primary {
+  background-color: rgb(155, 52, 52); 
+  color: #F6F0F0;
+}
+.palette-accent {
+  background-color: rgb(236, 78, 78);
+  color: #f6f0f0;
+}
+
 /* All Text Styles */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 .txt {

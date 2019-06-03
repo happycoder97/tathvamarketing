@@ -2,17 +2,27 @@
   
 }
 
-#why-sponsor-us-section .title {
+#why-sponsor-us-section p {
   margin-top: 0;
+  margin-bottom: 0;
+}
+#why-sponsor-us-section h2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#why-sponsor-us-section .card {
+#why-sponsor-us-section .title {
+  margin-top: 0;
+  line-height: 80px;
+}
+
+#why-sponsor-us-section .cardy {
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
 
-#why-sponsor-us-section .card .illustration .box {
+#why-sponsor-us-section .cardy .illustration .box {
   width: 260px;
   height: 165px;
   background-position: center;
@@ -22,8 +32,6 @@
 
 @media screen and (min-width: 300px){
   #why-sponsor-us-section {
-    padding-top: 25px;
-    padding-bottom: 35px;
   }
 
   #why-sponsor-us-section .description {
@@ -33,36 +41,33 @@
   }
 
   #why-sponsor-us-section .imperative {
-    margin-top: 24px;
-    margin-bottom: 24px;
   }
 
-  #why-sponsor-us-section .card {
+  #why-sponsor-us-section .cardy {
     border: 1px solid rgba(0,0,0,.12);
     display: flex;
     flex-direction: column;
     padding: 24px 0;
   }
 
-  #why-sponsor-us-section .card .illustration {
+  #why-sponsor-us-section .cardy .illustration {
     margin-left: auto;
     margin-right: auto;
   }
 
-  #why-sponsor-us-section .card .textarea {
+  #why-sponsor-us-section .cardy .textarea {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
   }
-  #why-sponsor-us-section .card .textarea .texts p {
+  #why-sponsor-us-section .cardy .textarea .texts p {
     text-align: center;
     margin-bottom: 0;
     line-height: 20px;
   }
 
   #why-sponsor-us-section .and-more {
-    margin-top: 32px;
   }
 
   #why-sponsor-us-section .extra-points {
@@ -75,34 +80,31 @@
 }
 @media screen and (min-width: 740px){
   #why-sponsor-us-section {
-    padding-top: 54px;
-    padding-bottom: 32px;
   }
 
   #why-sponsor-us-section .description {
     width: 720px;
   }
 
-  #why-sponsor-us-section .card {
+  #why-sponsor-us-section .cardy {
     border: none;
     width: 720px;
     height: 281px;
     border-radius: 10px;
     padding: 16px 32px;
     box-sizing: border-box;
-    margin-top: 18px;
     box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   }
 
-  #why-sponsor-us-section .card-straight {
+  #why-sponsor-us-section .cardy-straight {
     flex-direction: row;
   }
 
-  #why-sponsor-us-section .card-reverse {
+  #why-sponsor-us-section .cardy-reverse {
     flex-direction: row-reverse;
   }
 
-  #why-sponsor-us-section .card .illustration {
+  #why-sponsor-us-section .cardy .illustration {
     width: 50%;
     display: flex;
     align-items: center;
@@ -110,27 +112,27 @@
 
   }
 
-  #why-sponsor-us-section .card .textarea {
+  #why-sponsor-us-section .cardy .textarea {
     width: 50%;
     display: flex;
     align-items: center;
   }
 
-  #why-sponsor-us-section .card .textarea .texts {
+  #why-sponsor-us-section .cardy .textarea .texts {
     width: 100%;
   }
 
-  #why-sponsor-us-section .card-straight .textarea .texts h2 {
+  #why-sponsor-us-section .cardy-straight .textarea .texts h2 {
     text-align: left;
   }
-  #why-sponsor-us-section .card-straight .textarea .texts p {
+  #why-sponsor-us-section .cardy-straight .textarea .texts p {
     text-align: left;
   }
 
-  #why-sponsor-us-section .card-reverse .textarea .texts h2 {
+  #why-sponsor-us-section .cardy-reverse .textarea .texts h2 {
     text-align: right;
   }
-  #why-sponsor-us-section .card-reverse .textarea .texts p {
+  #why-sponsor-us-section .cardy-reverse .textarea .texts p {
     text-align: right;
   }
 
@@ -149,8 +151,6 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 32px;
-    margin-top: 32px;
   }
 
   #why-sponsor-us-section .extra-points {

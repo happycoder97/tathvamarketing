@@ -8,6 +8,7 @@
 
 #previous-sponsors-section .txt-title {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 #previous-sponsors-section .logos .column {
@@ -31,14 +32,11 @@
     flex-direction: row;
   }
   #previous-sponsors-section {
-    padding-top: 16px;
-    padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 1023px){
   #previous-sponsors-section {
-    padding-bottom: 54px;
   }
   #previous-sponsors-section .logos {
     width: 1000px;
