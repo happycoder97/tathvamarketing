@@ -20,6 +20,32 @@
     background-color: white;
 }
 
+/* Beta color scheme */
+.palette-maj-main {
+  background-color: #FAFAFA!important;
+  color: #3C332C;
+}
+.palette-maj-alt {
+  background-color: #FFFFFF;
+  color: #231919; 
+}
+.palette-min-main {
+  background-color: #263238;
+  color: #F6F0F0;
+}
+.palette-min-alt {
+  background-color: #0e0e0e;
+  color: #F6F0F0;
+}
+.palette-primary {
+  background-color: #1976D2; 
+  color: #F6F0F0;
+}
+.palette-accent {
+  background-color: #E91E63;
+  color: #f6f0f0;
+}
+
 /* All Text Styles */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 .txt {
@@ -39,22 +65,22 @@
 }
 
 .txt-title{
-    font-size: 28px;
-    line-height: 48px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
     text-align: center;
 }
 
 .txt-subhead {
     font-size: 18px;
     font-weight: 400;
+    line-height: 18px;
     text-align: center;
 }
 
 .txt-body {
     font-size: 14px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
 }
 
@@ -62,6 +88,45 @@
   font-weight: 700;
   letter-spacing: 1%;
   font-size: 14px;
+}
+
+.txt {
+  margin-bottom: .5em!important;
+  /* margin-top: .5em!important; */
+}
+
+.txt.extra-points {
+  margin-bottom: 1em!important;
+}
+.txt.and-more {
+  font-weight: 300;
+}
+
+.txt.txt-title.ribbon {
+  margin-bottom: 48px!important;
+  margin-top: 0!important;
+}
+.txt.and-more, .txt.imperative {
+  margin-top: 24px!important;
+  margin-bottom: 18px!important;
+}
+
+.cardy {
+  margin-top: 18px!important;
+}
+.contact-card .card-body:nth-child(2) {
+  margin-top: 0!important;
+}
+
+section {
+  padding-bottom: 48px!important;
+}
+
+#about-us-section {
+  padding-bottom: 0!important;
+}
+#navbar ul {
+  margin-bottom: 0!important;
 }
 
 /*
@@ -80,7 +145,7 @@
 }
 
 .contact .name {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 24px;
     color: #ff008a;
     font-weight: 400;

@@ -3,8 +3,12 @@
 }
 
 #last-year-sponsors .container {
-  margin-top: 32px;
   
+}
+
+#last-year-sponsors .txt-title {
+  line-height: 80px;
+  margin-bottom: 0;
 }
 
 #last-year-sponsors .container .card {
