@@ -2,11 +2,18 @@
 
 }
 
+#about-us-section .txt-title {
+  margin-bottom: 0;
+}
+
 #about-us-section .contain {
   display: flex;
   align-items: center;
 }
 
+#about-us-section .contain .textarea .txt-body {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 300px){
   #about-us-section .contain .photo {
     display: none;
