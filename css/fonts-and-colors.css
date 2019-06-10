@@ -120,13 +120,14 @@
 
 section {
   padding-bottom: 48px!important;
+  overflow: hidden;
 }
 
-#about-us-section {
-  padding-bottom: 0!important;
-}
 #navbar ul {
   margin-bottom: 0!important;
+}
+#navbar {
+  min-height: 60px;
 }
 
 /*
@@ -172,13 +173,23 @@ hr{
 }
 
 @media screen and (min-width: 300px){
-
+  #about-us-section {
+    padding-top: 48px;
+  }
+  .hide-phone {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 740px){
-
+  .hide-phone {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px){
-
+  #about-us-section {
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+  }
 }
