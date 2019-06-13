@@ -1,5 +1,4 @@
 #about-us-section {
-
 }
 
 #about-us-section .txt-title {
@@ -14,7 +13,7 @@
 #about-us-section .contain .textarea .txt-body {
   margin-bottom: 0;
 }
-@media screen and (min-width: 300px){
+@media screen and (min-width: 300px) {
   #about-us-section .contain .photo {
     display: none;
   }
@@ -27,7 +26,7 @@
   }
 }
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 740px) {
   #about-us-section .contain .photo {
     display: block;
     width: 700px;
@@ -44,18 +43,20 @@
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   #about-us-section {
-    min-height: 100%;
   }
   #about-us-section .contain {
-    flex-direction: row;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: auto;
+    align-content: stretch;
+    justify-content: stretch;
   }
 
   #about-us-section .contain .photo {
-    width: 50%;
-    height: 100%;
+    height: 90%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,8 +64,9 @@
   }
 
   #about-us-section .contain .textarea {
-    width: 50%;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    height: auto;
   }
 }
