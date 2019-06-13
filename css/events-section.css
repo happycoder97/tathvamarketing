@@ -6,7 +6,7 @@
   line-height: 80px;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 300px) {
   #events-section {
   }
   #events-section .contain {
@@ -56,7 +56,7 @@
     height: 50%;
     position: absolute;
     bottom: 0;
-    background-color: rgba(0,0,0,67%);
+    background-color: rgba(0, 0, 0, 67%);
     z-index: 1;
   }
   #events-section .contain .card-full .textarea {
@@ -66,15 +66,14 @@
     width: 100%;
     height: 50%;
     padding-top: 18px;
-
   }
-  #events-section .contain .card-full .txt-subhead {
+  #events-section .contain .txt-subhead {
     text-align: center;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: 0;
   }
-  #events-section .contain .card-full .txt-body {
+  #events-section .contain .txt-body {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -84,7 +83,7 @@
   }
 }
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 740px) {
   #events-section .contain {
     flex-direction: column;
     width: 720px;
@@ -184,7 +183,7 @@
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   #events-section {
   }
   #events-section .contain {
@@ -195,9 +194,7 @@
     flex-direction: column;
   }
   #events-section .contain .block2 .sub-row {
-
   }
   #events-section .contain .card {
-
   }
 }
