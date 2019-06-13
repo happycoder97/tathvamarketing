@@ -71,7 +71,7 @@
 }
 
 .txt-subhead {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 18px;
   text-align: center;
@@ -86,8 +86,8 @@
 
 .txt-button-label {
   font-weight: 700;
-  letter-spacing: 1%;
-  font-size: 14px;
+  letter-spacing: 0.01em;
+  font-size: 15px;
 }
 
 .txt {
