@@ -13,10 +13,8 @@ $(document).ready(function(){
       
       var scroll = $(window).scrollTop();
       if(scroll > position) {
-          console.log('scrollDown');
           $('#navbar').addClass('away');
       } else {
-          console.log('scrollUp');
           $('#navbar').removeClass('away');
       }
       $('#navbar .collapse').removeClass('show');
