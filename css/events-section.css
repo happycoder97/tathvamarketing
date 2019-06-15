@@ -28,19 +28,11 @@
   #events-section {
   }
   #events-section .contain {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-gap: 4px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-  }
-  #events-section .contain .block1 {
-    display: flex;
-    flex-direction: column;
-  }
-  #events-section .contain .block2 {
-    display: flex;
-    flex-direction: column;
   }
   #events-section .contain .card {
     width: 300px;
@@ -110,19 +102,21 @@
   }
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 355px) {
   #events-section .contain {
-    flex-direction: column;
-    width: 720px;
-  }
-  #events-section .contain .block1 {
-    flex-direction: row;
-  }
-  #events-section .contain .block2 {
-    flex-direction: row;
+    width: 355px;
   }
   #events-section .contain .card {
     width: 355px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  #events-section .contain {
+    grid-template-columns: 1fr 1fr;
+    width: 720px;
+  }
+  #events-section .contain .card {
     margin-left: 2.5px;
     margin-right: 2.5px;
   }
@@ -215,14 +209,7 @@
   }
   #events-section .contain {
     width: 1080px;
-    flex-direction: row;
-  }
-  #events-section .contain .block2 {
-    flex-direction: column;
-  }
-  #events-section .contain .block2 .sub-row {
-  }
-  #events-section .contain .card {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #events-section .modal .modal-body {
