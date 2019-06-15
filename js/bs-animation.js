@@ -50,8 +50,8 @@ $(document).ready(function(){
   // Avoiding glitch in carousel slide transition due to undefined height
   const height = $('.carousel-inner').css("height");
   const width = $('.carousel-inner').css("width");
-  $('.carousel .img-div').css("width", width);
-  $('.carousel .img-div').css("height", height);
+  $('.carousel-item img').css("width", width);
+  $('.carousel-item img').css("height", height);
 });
 
 
