@@ -1,6 +1,7 @@
 $(document).ready(function(){
   
   // AOS Element animation on scroll preferences
+  
   AOS.init({ disable: 'mobile' });
 	$('[data-bs-hover-animate]')
 		.mouseenter( function(){ var elem = $(this); elem.addClass('infront animated ' + elem.attr('data-bs-hover-animate')) })
