@@ -10,7 +10,19 @@
 
 #sec_gallery .carousel-item {
   width: 100%;
+  height: 100%;
+}
+
+#sec_gallery .carousel-inner {
+  height: 80vh;
 }
 
 #sec_gallery .carousel {
+}
+
+#sec_gallery .carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }

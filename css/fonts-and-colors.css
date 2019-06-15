@@ -34,7 +34,7 @@
   color: #f6f0f0;
 }
 .palette-min-alt {
-  background-color: #0e0e0e;
+  background-color: black;
   color: #f6f0f0;
 }
 .palette-primary {
@@ -73,15 +73,17 @@
 .txt-subhead {
   font-size: 20px;
   font-weight: 500;
-  line-height: 18px;
+  line-height: 24px;
   text-align: center;
 }
 
 .txt-body {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 24px;
   font-weight: 400;
   text-align: justify;
+  letter-spacing: .04em;
+  word-spacing: 0.04em;
 }
 
 .txt-button-label {
@@ -108,8 +110,8 @@
 }
 .txt.and-more,
 .txt.imperative {
-  margin-top: 24px !important;
-  margin-bottom: 18px !important;
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
 }
 
 .cardy {
@@ -142,7 +144,6 @@ section {
 }
 
 .contact {
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -163,8 +164,8 @@ section {
 .contact .number {
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 hr {
