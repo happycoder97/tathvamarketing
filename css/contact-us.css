@@ -35,7 +35,7 @@
   height: 200px;
   object-fit: cover;
   object-position: center;
-  display: none;
+  /* display: none; */
 }
 
 .contact-card .txt-body {
