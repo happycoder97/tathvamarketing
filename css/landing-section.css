@@ -31,6 +31,14 @@
   letter-spacing: .1em;
 }
 
+#landing-section .textarea a {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
 #landing-section .textarea .landing-button {
   border-radius: 30px;
   padding: 5px 16px;
