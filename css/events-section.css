@@ -6,16 +6,32 @@
   line-height: 80px;
 }
 
-@media screen and (min-width: 300px){
+#events-section .modal .txt-title {
+  line-height: 1.5em;
+}
+
+#events-section .modal .modal-body {
+  display: grid;
+}
+
+#events-section .modal .modal-body img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+#events-section .modal .modal-body p {
+}
+
+@media screen and (min-width: 300px) {
   #events-section {
-    padding-bottom: 40px;
   }
   #events-section .contain {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
     width: 300px;
   }
   #events-section .contain .block1 {
@@ -32,6 +48,7 @@
     border: none;
     overflow: hidden;
     margin-top: 5px;
+    cursor: pointer;
   }
   #events-section .contain .card-short {
     display: flex;
@@ -49,6 +66,9 @@
   }
   #events-section .contain .card-full {
     height: 245px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   #events-section .contain .card-short {
     height: 120px;
@@ -58,7 +78,7 @@
     height: 50%;
     position: absolute;
     bottom: 0;
-    background-color: rgba(0,0,0,67%);
+    background-color: rgba(0, 0, 0, 67%);
     z-index: 1;
   }
   #events-section .contain .card-full .textarea {
@@ -68,16 +88,14 @@
     width: 100%;
     height: 50%;
     padding-top: 18px;
-
   }
-  #events-section .contain .card-full .txt-subhead {
+  #events-section .contain .txt-subhead {
     text-align: center;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: 0;
   }
-  #events-section .contain .card-full .txt-body {
-    margin-top: 14px;
+  #events-section .contain .txt-body {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -85,9 +103,14 @@
     text-align: center;
     font-size: 14px;
   }
+
+  #events-section .modal .modal-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
 }
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 740px) {
   #events-section .contain {
     flex-direction: column;
     width: 720px;
@@ -154,7 +177,6 @@
     margin-bottom: 0;
   }
   #events-section .contain .card-full .txt-body {
-    margin-top: 10px;
     width: 50%;
     padding-left: 0;
     padding-right: 0;
@@ -188,22 +210,23 @@
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   #events-section {
   }
   #events-section .contain {
     width: 1080px;
     flex-direction: row;
-    margin-top: 64px;
-    margin-bottom: 44px;
   }
   #events-section .contain .block2 {
     flex-direction: column;
   }
   #events-section .contain .block2 .sub-row {
-
   }
   #events-section .contain .card {
+  }
 
+  #events-section .modal .modal-body {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
   }
 }
