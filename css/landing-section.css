@@ -29,17 +29,17 @@
 }
 
 #landing-section .view-brochure-btn {
-  border-left: 1px solid white;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   border-radius: 30px 0 0 30px !important;
   display: grid;
   justify-content: right;
-  color: white;
+  color: black;
 }
 
 #landing-section .brochure-btns .landing-button {
-  color: white;
+  color: black;
   width: 150px;
 }
 #landing-section .brochure-btns .landing-button:hover {
@@ -47,9 +47,9 @@
 }
 
 #landing-section .save-brochure-btn {
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 0 30px 30px 0 !important;
-  color: white;
+  color: black;
 }
 
 .landing-button {
@@ -67,6 +67,24 @@
   text-decoration: none;
 }
 
+#landing-section {
+  height: 140%;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+#landing-section .landing-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+#landing-section .textarea {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 40px;
+}
+
 #landing-section .textarea p {
   text-align: center;
   font-weight: 400;
@@ -79,7 +97,7 @@
   display: table;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: black;
   font-weight: 400;
   letter-spacing: 0.1em;
 }
@@ -90,17 +108,26 @@
   margin-right: auto;
   display: block;
   background-color: transparent;
-  border: 1px solid #ffffffd2;
+  border: 1px solid #000000d2;
   font-weight: 600;
+  color: black;
 }
 
 @media screen and (min-width: 300px) {
   #landing-section .textarea p {
     width: 300px;
   }
+
+  #landing-section .landing-image {
+    height: 150%;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 740px) {
+  #landing-section {
+    height: 100%;
+  }
   #landing-section .textarea p {
     width: 700px;
   }
@@ -113,7 +140,11 @@
 }
 
 @media sreen and (min-width: 1200px) {
-  #landing-section .textarea p {
-    width: 800px;
+  #landing-section .landing-img .textarea h2.txt-title {
+    display: none !important;
+  }
+  #landing-section .landing-img .textarea p.txt-body {
+    display: none;
+    width: 800px !important;
   }
 }
