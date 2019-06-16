@@ -51,8 +51,9 @@ function mouseMove(event) {
   }
   if(event.touches) {
     let touch = event.touches.item(0);
+
     mouseX = - (touch.clientX / renderer.domElement.clientWidth) * 2 + 1;
-    mouseY = - (touch.clientY / renderer.domElement.clientHeight) * 2 + 1;
+    mouseY = 0;
   }
   // console.log(camera.rotation.x + " " + camera.rotation.y);
   camera.rotation.x = mouseY / scale;
@@ -84,7 +85,6 @@ const resizeWindow = () => {
   canvas.height = resolution.y;
   resizeCamera();
   renderer.setSize(resolution.x, resolution.y);
-  camera.translateZ(resolution.y/5.0);
 };
 const on = () => {
   window.addEventListener('resize', debounce(resizeWindow, 1000));

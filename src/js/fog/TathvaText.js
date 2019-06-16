@@ -22,7 +22,7 @@ export default class TathvaText {
         var geometry = new THREE.TextGeometry("TATHVA '19", {
             font: font,
             size: Math.log(innerWidth)*7.0 + 40.0,
-            height: 10,
+            height: 0,
             bevelEnabled: false,
             curveSegments: 10
         });
